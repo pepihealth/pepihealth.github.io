@@ -5,32 +5,62 @@
    ========================================================================== */
 
 .full {
-  background: url(../img/logobg.png) no-repeat center center fixed; 
+  background: url(../img/PepiHealth_Logo_Tag_1.png) no-repeat center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+    
+ 
+  
+
 }
 
-footer p {
-	    position: absolute;
-    bottom: 0px;
-}
 
-body {
-                padding-bottom: 20px;
+
+
+
+body {padding-bottom: 40%;
+        font-family: "Aller";
+        font-size: 20px;
             }
 
 
 
 
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    bottom:0px;
+    width: 100%;
+    
+    background-color: #cfdee7;
+    color: #5e7ce2;
+    text-align: center;
+    z-index: 100;
+    font-size: 50%;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    padding: 1rem;
+    letter-spacing: 0.03em;
+    line-height: 2;
+    font-family: "Aller", monospace;
+    color: #4472CA;
+    }
 
+    
+    
+}
 
+.footer glypha{
+    font-family: "Aller_lt", monospace;
+}  
 
-
-
-
-
-
-
-
+.footer a:link {
+    color:#5e7ce2
+}
+.footer a:hover {
+    color:#72b3ff
+}
+    
