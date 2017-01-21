@@ -1,11 +1,9 @@
 
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+
 
 .full {
-  background: url(../img/PepiHealth_Logo_Tag_1.png) no-repeat center center fixed; 
+  background: url(../img/PepiHealth_logo_2.png) no-repeat center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -14,6 +12,30 @@
  
   
 
+}
+
+.tagline { 
+    position: relative;
+    bottom: 0px;
+    top: 100px;
+    left:auto;
+    right:auto;
+    width: 100%;
+    
+    background-color: #cfdee7;
+    color: #5e7ce2;
+    text-align: center;
+    z-index: 100;
+    font-size: 150%;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    padding: 1rem;
+    letter-spacing: 0.03em;
+    line-height: 100;
+    font-family: "Aller", monospace;
+    color: #4472CA;
+    }
+    
 }
 
 
@@ -39,7 +61,7 @@ body {padding-bottom: 40%;
     color: #5e7ce2;
     text-align: center;
     z-index: 100;
-    font-size: 50%;
+    font-size: 75%;
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
     padding: 1rem;
