@@ -3639,9 +3639,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group {
   margin-left: -1px;
 }
+/*not sure this is doing anything but trying to get the items to align in the centre, it looks all out of whack though!*/
 .nav {
     position: fixed;
     align-items: center;
+    font-family: "Aller";
+    text-size-adjust: 100%;
   
 }
 .nav > li {

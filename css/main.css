@@ -2,36 +2,44 @@
 
 
 
+/*Need to make Pepi now adjust properly*/
+
 .full {
-  background: url(../img/PepiHealth_logo_2.png) no-repeat center center fixed; 
+  /*background: url(../img/PepiHealth_logo_2.png) no-repeat center center fixed; */
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+    position: fixed;
+    font-family: "Aller";
+    color: #72B3FF;
+    font-size: 105%; 
+    text-rendering: "optimizeLegibility";
+    text-size-adjust: 100%;
+    width: 100%;
+    text-align: center;
     
- 
-  
 
 }
 
-.tagline { 
+.about { 
     position: relative;
     bottom: 0px;
-    top: 100px;
+    top: 1px;
     left:auto;
     right:auto;
     width: 100%;
     
-    background-color: #cfdee7;
-    color: #5e7ce2;
+    /*background-color: #cfdee7;*/
+    color: #001F5B;
     text-align: center;
     z-index: 100;
-    font-size: 150%;
-    text-rendering: optimizeLegibility;
+    font-size: 85%;
+    text-rendering: "optimizeLegibility";
     text-size-adjust: 100%;
     padding: 1rem;
     letter-spacing: 0.03em;
-    line-height: 100;
+    line-height: 10;
     font-family: "Aller", monospace;
     color: #4472CA;
     }
@@ -54,7 +62,6 @@ body {padding-bottom: 40%;
     position: fixed;
     bottom: 0px;
     left:0px;
-    bottom:0px;
     width: 100%;
     
     background-color: #cfdee7;
@@ -119,5 +126,70 @@ td {
     height: 100vh;
     background-color: transparent;
     perspective: 1000%;
+    display:block
     
+}
+
+/*playing again here to help with alignment - these can be adjusted to provide space between items - it may be a case of requiring longer shorter words, or more options to help*/
+li {
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    
+}
+
+
+
+.about { 
+    position: relative;
+    bottom: 0px;
+    top: 1px;
+    left:auto;
+    right:auto;
+    width: 100%;
+    
+    background-color: #cfdee7;
+    color: #5e7ce2;
+    text-align: center;
+    z-index: 1;
+    font-size: 85%;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    padding: 1rem;
+    letter-spacing: 0.03em;
+    line-height: 10;
+    font-family: "Aller", monospace;
+    color: #4472CA;
+    }
+
+
+ul {
+    text-align:center
+}
+
+#stay the fuck still {
+    position
+}
+
+.staying {
+    /*display: inline-block;*/
+    position:fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+    text-rendering: "optimizeLegibility";
+    text-size-adjust: 100%;
+    padding-top: 45%;
+}
+
+img {
+    width:100%;
+    margin: 0 auto;
+}
+
+.Caption {
+    display: block;
+    font-family: "Aller";
 }
