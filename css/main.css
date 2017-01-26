@@ -2,22 +2,27 @@
 
 
 
-/*Need to make Pepi now adjust properly*/
+/*Don't know how to stop it slipping off the screen when in full screen mode*/
 
-.full {
-  /*background: url(../img/PepiHealth_logo_2.png) no-repeat center center fixed; */
+
+.full:empty {
+  /*background: url(../img/PepiHealth_logo_2.png) no-repeat center center fixed;*/
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-    position: fixed;
+    top: 50%;
+	left: 50%;
+    position: absolute;
     font-family: "Aller";
     color: #72B3FF;
     font-size: 105%; 
     text-rendering: "optimizeLegibility";
     text-size-adjust: 100%;
-    width: 100%;
-    text-align: center;
+        margin: auto;
+    text-align: center;*/
+    
+    
     
 
 }
@@ -192,4 +197,7 @@ img {
 .Caption {
     display: block;
     font-family: "Aller";
+        color: #72B3FF;
 }
+
+
