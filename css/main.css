@@ -37,8 +37,10 @@
     position: absolute;
     top:0;bottom:0; /* vertical center */
     left:0;right:0; /* horizontal center */
+    
     background-color: #cfdee7;
     text-align: left;
+    /*overflow-y: auto;  ugly way to make the div scrollable*/
     z-index: 10;
     font-size: 100%;
     text-rendering: "optimizeLegibility";
@@ -232,4 +234,16 @@ img {
     letter-spacing: 0.25em;
     color: black;
     
+}
+
+.container {
+    width: 100%;
+    color: yellow;
+    height: 90%;
+    max-height: 85%;
+   
+    margin: auto;
+    position: ;
+    
+    background-color: #cfdee7;
 }
