@@ -6,7 +6,7 @@
 
 
 .full:empty {
-  /*background: url(../img/PepiHealth_logo_2.png) no-repeat center center fixed;*/
+  background: url(../img/PepiHealth_logo_2.png) no-repeat center center fixed;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -37,7 +37,7 @@
     position: absolute;
     top:0;bottom:0; /* vertical center */
     left:0;right:0; /* horizontal center */
-    background-color: #4990E2;
+    /*background-color: #4990E2;*/
     text-align: left;
     /*overflow-y: auto;  ugly way to make the div scrollable*/
     z-index: 2;
