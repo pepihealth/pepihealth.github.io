@@ -31,24 +31,22 @@
     width: 133vw; 
     height: 77vh;
     
-    max-height: 85%;
+    max-height: 80%;
     max-width: 65%;
     margin: auto;
     position: absolute;
     top:0;bottom:0; /* vertical center */
     left:0;right:0; /* horizontal center */
-    
-    background-color: #cfdee7;
+    background-color: #4990E2;
     text-align: left;
     /*overflow-y: auto;  ugly way to make the div scrollable*/
-    z-index: 10;
+    z-index: 2;
     font-size: 100%;
     text-rendering: "optimizeLegibility";
     text-size-adjust: 120%;
-    
     letter-spacing: 0.03em;*/
     font-family: "Aller", monospace;
-    color: #4472CA;
+    color: white;
     }
     
 }
@@ -104,13 +102,13 @@ body {padding-bottom: 40%;
 .landing-page_navigation {
     font-family: "Aller", monospace;
     font-size: 1em;
-    position: relative;
+    position: static;
     width: 100%;
     align-content: center;
     text-rendering: "optimizeLegibility";
     text-size-adjust: 100%;
     text-align: center;
-    display: inline-block;
+    display: block;
     /*margin: 0 0.66em;*/
     
 }
@@ -129,7 +127,7 @@ td {
 
 .nav {
     position: fixed;
-    /*z-index: ; this bolts the menu to the top*/
+    z-index:1;
     width:100%;
     background-color: white;
     perspective: 1000%;
@@ -137,11 +135,8 @@ td {
         align-items: center;
     font-family: "Aller";
     text-size-adjust: 100%;
+    padding: 1rem;
     
-    /*.nav{
-    top: 0px;
-    left: 0px;
-    something in the .js might be causing the links to not work properly*/
 }
 
 .nav a:hover {color:#72b3ff;
@@ -164,27 +159,7 @@ li {
 
 
 
-.about { 
-    /*position: relative;
-    bottom: 0px;
-    top: 1px;
-    left:auto;
-    right:auto;
-    width: 100%;
-    
-    background-color: #cfdee7;
-    color: #5e7ce2;
-    text-align: center;
-    z-index: 1;
-    font-size: 85%;
-    text-rendering: optimizeLegibility;
-    text-size-adjust: 100%;
-    padding: 1rem;
-    letter-spacing: 0.03em;
-    line-height: 10;
-    font-family: "Aller", monospace;
-    color: #4472CA;*/
-    }
+
 
 
 ul {
@@ -236,14 +211,20 @@ img {
     
 }
 
-.container {
+/*.container_1 {
     width: 100%;
     color: yellow;
     height: 90%;
     max-height: 85%;
-   
+   font-size: 400%;
     margin: auto;
-    position: ;
+    position:fixed ;
     
     background-color: #cfdee7;
+}*/
+
+
+
+#scroll {
+    background-color: #4990E2;
 }
