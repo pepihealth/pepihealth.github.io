@@ -28,25 +28,16 @@
 }
 
 .about {  
-    width: 133vw; 
-    height: 77vh;
-    
-    max-height: 80%;
-    max-width: 65%;
+    max-width: 60%;
     margin: auto;
-    position: absolute;
-    top:0;bottom:0; /* vertical center */
-    left:0;right:0; /* horizontal center */
-    /*background-color: #4990E2;*/
     text-align: left;
-    /*overflow-y: auto;  ugly way to make the div scrollable*/
-    z-index: 2;
     font-size: 100%;
     text-rendering: "optimizeLegibility";
     text-size-adjust: 120%;
-    letter-spacing: 0.03em;*/
+    letter-spacing: 0.03em;
     font-family: "Aller", monospace;
     color: white;
+    
     }
     
 }
@@ -228,3 +219,30 @@ img {
 #scroll {
     background-color: #4990E2;
 }
+
+.about {
+    color: white;
+}
+
+#mc_embed_signup_scroll {
+    width: 60%;
+    left: 100px;
+    right: 100px;
+}
+
+#mc_embed_signup {
+    text-align:center;
+    
+ }
+
+#mc_embed_signup {
+    display:inline-block;
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+ }
+
+#mc_embed_signup input.email {
+    min-width:250px;
+}
+
