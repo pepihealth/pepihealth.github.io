@@ -28,7 +28,7 @@
 }
 
 .about {  
-    max-width: 60%;
+    max-width: 65%;
     margin: auto;
     text-align: left;
     font-size: 100%;
@@ -246,3 +246,26 @@ img {
     min-width:250px;
 }
 
+
+
+
+#slide2 {
+   background-image: url(/img/Slide2.png);
+		padding: 10 0 0 0;
+    font-size: 5em;
+    font-family: "Aller", "helvetica";
+    text-align: left;
+    color: white;
+    
+}
+
+.slide {
+   
+		background-size: cover;
+    background-attachment:local;
+}
+
+#motivated {
+    padding-left: 15%;
+
+}
