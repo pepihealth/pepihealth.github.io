@@ -251,7 +251,7 @@ img {
 
 #slide2 {
    background-image: url(/img/Slide2.png);
-		padding: 10 0 0 0;
+		padding: 0 0 0 0;
     font-size: 5em;
     font-family: "Aller", "helvetica";
     text-align: left;
@@ -267,5 +267,13 @@ img {
 
 #motivated {
     padding-left: 15%;
+    color: white;
 
 }
+
+#motivated a:link {color: white;
+    }
+#motivated a:hover {color:#72b3ff;
+    text-decoration: underline;}
+#motivated a:visited {color: white}
+
