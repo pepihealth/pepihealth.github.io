@@ -231,11 +231,23 @@ img {
 }
 
 #mc_embed_signup {
-    text-align:center;
+    /*text-align:center;
     background-size: cover;
     background-attachment: local;
     width: 100%;
-    padding-left: 25%;
+    padding-left: 25%;*/
+    
+    width: 100%;
+    padding-left: 27.5%;
+    margin: auto;
+    text-align: left;
+    font-size: 100%;
+    text-rendering: "optimizeLegibility";
+    text-size-adjust: 120%;
+    letter-spacing: 0.03em;
+    font-family: "Aller", monospace;
+    color: white;
+    
     
     
  }
@@ -289,6 +301,7 @@ img {
 .intro {
     color: white;
     font-family: "Aller", "helvetica";
+
 }
 
 #mce-MMERGE3 {
@@ -298,4 +311,18 @@ img {
 
 .mc-field-group {
     
+}
+
+
+
+.clear {
+   
+}
+
+.button {
+    
+}
+
+#mc-embedded-subscribe {
+    background-color: #cfdee7;
 }
